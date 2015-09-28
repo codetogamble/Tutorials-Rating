@@ -1,0 +1,7 @@
+import RateTut
+
+sq='Qt Framework'
+for i in [1,2,3,4,5,6,7]:
+	temp= []
+	temp = RateTut.FindUrl(sq,i)
+	RateTut.WF(temp)
